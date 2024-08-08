@@ -43,7 +43,7 @@ PROMPT_TEMPLATE = """
 """
 #base_url = "https://api.pumpkinaigc.online/v1"
 def dataframe_agent(openai_api_key, df, query):
-    model = ChatOpenAI(model="gpt-3.5-turbo",
+    model = ChatOpenAI(model="gpt-4-turbo",
                        openai_api_key=openai_api_key,
                        #openai_api_base=base_url,
                        temperature=0)
